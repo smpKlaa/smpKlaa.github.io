@@ -8,11 +8,11 @@ https://templatemo.com/tm-550-diagoona
 
 body {
     font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 200;
     overflow-x: hidden;
-    color: white;
-    background-color: #2C353C;
+    color: rgb(241, 241, 241);
+    background-color: #000000;
 }
 
 a { 
@@ -101,6 +101,15 @@ p { line-height: 1.9; }
     cursor: pointer;
 }
 
+.tm-bg-controlegg {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 6px;
+    cursor: pointer;
+}
+
 .tm-bg-control.active,
 .tm-bg-control:hover {
     background-color: white;
@@ -128,13 +137,13 @@ p { line-height: 1.9; }
 .tm-col-right {
     width: 50%;
     height: 100%;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .tm-content {
-    max-width: 660px;
-    margin-top: 50px;
+    max-width: 700px;
+    margin-top: 10px;
     padding-right: 20px;
 }
 
@@ -171,7 +180,7 @@ hr { border-top: 1px solid white; }
 }
 
 .btn-primary:hover {
-    background-color: #9CC;
+    background-color: rgb(3, 160, 160);
     color: black;
 }
 
@@ -187,28 +196,6 @@ hr { border-top: 1px solid white; }
 .tm-text-link:hover,
 .tm-text-link:focus {
     color: #9CC;
-}
-
-/* Service */ 
-.tm-service-text { max-width: 365px; }
-.tm-service-img { margin-right: 25px; }
-.tm-service-img-r { margin-left: 25px; }
-
-/* Contact */
-.form-control,
-textarea {    
-    color: white;
-    background-color: transparent;
-    background-clip: padding-box;
-    border: none;
-    border-bottom: 1px solid #999A9B;
-    border-radius: 0;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    padding: 10px 0;
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
 }
 
 .form-control:focus {
