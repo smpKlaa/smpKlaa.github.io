@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Parhaat Pizzat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="JS\script.js"></script>
+    <script src="https://kit.fontawesome.com/0b5c6fa213.js" crossorigin="anonymous"></script>
+    <script src= "JS\Kir.JS"> </script>
+</head>
+
+<body>
+<!-- ====================NAVBAR==================== -->
+    <nav class="navbar-up">
+        <a class="logo" href="index.html">Parhaat Pizzat</a>
+        <a class="links" href="fantasiapizza.html">Fantasia Pizza Generaattori<i class="fa-solid fa-star icon"></i></a>
+        <a class="links" href="index.html #content">Menu<i class="fa-solid fa-bars icon"></i></a>
+        <div></div>
+        <a href="#" class="button-kir" id="Kbutton">Kirjaudu Sisään<i class="fa-solid fa-arrow-right-to-bracket icon"></i></a>
+        <a href="#" class="button-kir" id="button1">Rekisteröidy<i class="fa-solid fa-arrow-right-to-bracket icon"></i></a>
+        <h1 class="nametag" id="outputtext"></h1>
+        <i id="nametag"class="fa-solid fa-user icon nametag"></i>
+        <a href="index.html" class="button-kir" id="kirjauduUlos_nappi" onclick="ulos()">Kirjaudu ulos<i class="fa-solid fa-arrow-right-from-bracket icon"></i></a>
+    </nav>
+<!-- ====================NAVBAR END==================== -->
+<!-- ====================LOGIN POPUP==================== -->
+    <div class="popupRegister" id="popupRegister">
+        <div class="popup-content">
+            <i id="close1" class="fa-solid fa-xmark icon popup x"></i>
+            <i class="fa-solid fa-user icon popup"></i>
+            <form id="rekisteroitymis-lomake">
+                <input class="inputReg" id="name1" type="text" placeholder="Syötä nimesi" value="" />
+
+                <input class="inputReg" id="pw1" type="password" placeholder="Syötä salasana" value="" />
+                <input class="inputReg" id="pw2" type="password" placeholder="Syötä salasanasi uudestaan" value="" />
+
+                <input class="inputReg" id="rekisteroidy-nappi" type="submit" onclick="Rekis()" value="Rekisteröidy" />
+            </form>
+        </div>
+    </div>
+
+    <div class="popupLogin" id="popupLogin">
+        <div class="popup-content">
+            <i id="close" class="fa-solid fa-xmark icon popup x"></i>
+            <i class="fa-solid fa-user icon popup"></i>
+            <form name="loginForm">
+                <input class="inputReg" id="username" type="text" placeholder="Nimi" value="">
+
+                <input class="inputReg" id="password" type="password" placeholder="Salasana" value="">
+                <input class="inputReg" id="kirjaudu-nappi" type="submit" onclick="testa()" value="Kirjaudu sisään" />
+            </form>
+        </div>
+    </div>
+<!-- ====================LOGIN POPUT END==================== -->
+<!-- ====================HEADER==================== -->
+    <section class="header" id="top">
+        <div class="paasivu-logo">
+            <h1>Parhaat Pizzat</h1>
+        </div>
+    </section>
+    <div id="content" style="display:block; width: 100%; text-align: center !important;">
+        <a href="#content"><i class="fa-solid fa-circle-arrow-down icon fa-bounce arrow-down"></i></a>
+    </div>
+<!-- ====================HEADER END==================== -->
+    <div class="div-body">
+        <h2>MENU<i class="fa-solid fa-bars icon"></i></h2>
+<!-- ====================MENU ITEM 1==================== -->
+        <div class="menu-item">
+            <img src="img/salami-pizza.jpg">
+            <h1>Salami Pizza</h1>
+            <p>Täytteet: Salami</p>
+            <p>Hinta: 8.50€</p>
+            </img>
+            <form class="menu-tilaa" id="tilaa-form">
+                    <h3>Pizzan koko</h3>
+                    <div>
+                        <label for="koko-pieni-salami">
+                        <input id="koko-pieni-salami" type="radio" name="koko-salami" value="pieni">
+                        <span>Pieni</span>
+                        </label>
+
+                        <label for="koko-normaali-salami">
+                        <input id="koko-normaali-salami" type="radio" name="koko-salami" value="normaali">
+                        <span>Normaali</span>
+                        </label>
+
+                        <label for="koko-perhe">
+                        <input id="koko-perhe-salami" type="radio" name="koko-salami" value="perhe">
+                        <span>Perhe</span>
+                        </label>
+                    </div>
+                    <h3>Pizzojen pohja</h3>
+                    <div>
+                        <label for="pohja-normaali-salami">
+                        <input id="pohja-normaali-salami" type="radio" name="pohja-salami" value="normaali">
+                        <span>Normaali</span>
+                        </label>
+                        <label for="pohja-gluteeniton-salami">
+                            <input id="pohja-gluteeniton-salami" type="radio" name="pohja-salami" value="gluteeniton">
+                            <span>Gluteeniton</span>
+                        </label>
+                    </div>
+                    <h3>Pizzojen lukumäärä</h3>
+                    <input type="number" id="tilaa-montakosalami" value="1" required><br>
+                <input type="button" id="tilaa-submit" value="Tilaa" onclick="lisaatuote('Salami-pizza', 'Salami', 'koko-salami', 'pohja-salami' ,'tilaa-montakosalami', 8.50)">
+            </form>
+        </div>
+<!-- ======================================== -->
+<!-- ====================MENU ITEM 2==================== -->
+        <div class="menu-item">
+            <img src="img/mexicana-pizza.jpg">
+            <h1>Mexicana Pizza</h1>
+            <p>Täytteet: Pepperoni, Ananas, Jalopeno</p>
+            <p>Hinta: 10€</p>
+            </img>
+            <form class="menu-tilaa">
+                <h3>Pizzan koko</h3>
+                <div>
+                    <label for="koko-pieni-mexicana">
+                    <input id="koko-pieni-mexicana" type="radio" name="koko-mexicana" value="pieni">
+                    <span>Pieni</span>
+                    </label>
+
+                    <label for="koko-normaali-mexicana">
+                    <input id="koko-normaali-mexicana" type="radio" name="koko-mexicana" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+
+                    <label for="koko-perhe-mexicana">
+                    <input id="koko-perhe-mexicana" type="radio" name="koko-mexicana" value="perhe">
+                    <span>Perhe</span>
+                    </label>
+                </div>
+                <h3>Pizzojen pohja</h3>
+                <div>
+                    <label for="pohja-normaali-mexicana">
+                    <input id="pohja-normaali-mexicana" type="radio" name="pohja-mexicana" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+                    <label for="pohja-gluteeniton-mexicana">
+                        <input id="pohja-gluteeniton-mexicana" type="radio" name="pohja-mexicana" value="gluteeniton">
+                        <span>Gluteeniton</span>
+                    </label>
+                </div>
+                <h3>Pizzojen lukumäärä</h3>
+                <input type="number" id="tilaa-montakomexicana" value="1" required><br>
+                <input type="button" id="tilaa-submit" value="Tilaa" onclick="lisaatuote('Mexicana-pizza', 'Pepperoni, Ananas, Jalopeno', 'koko-mexicana', 'pohja-mexicana' ,'tilaa-montakomexicana', 10)">
+            </form>
+        </div>
+<!-- ======================================== -->
+<!-- ====================MENU ITEM 3==================== -->
+        <div class="menu-item">
+            <img src="img/cheese-pizza.jpg">
+            <h1>Kolmen Juuston Pizza</h1>
+            <p>Täytteet: Parmesaani, Mozzarella, Aura Juusto</p>
+            <p>Hinta: 10.50€</p>
+            </img>
+            <form class="menu-tilaa">
+                <h3>Pizzan koko</h3>
+                <div>
+                    <label for="koko-pieni-kolmejuusto">
+                    <input id="koko-pieni-kolmejuusto" type="radio" name="koko-kolmejuusto" value="pieni">
+                    <span>Pieni</span>
+                    </label>
+
+                    <label for="koko-normaali-kolmejuusto">
+                    <input id="koko-normaali-kolmejuusto" type="radio" name="koko-kolmejuusto" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+
+                    <label for="koko-perhe-kolmejuusto">
+                    <input id="koko-perhe-kolmejuusto" type="radio" name="koko-kolmejuusto" value="perhe">
+                    <span>Perhe</span>
+                    </label>
+                </div>
+                <h3>Pizzojen pohja</h3>
+                <div>
+                    <label for="pohja-normaali-kolmejuusto">
+                    <input id="pohja-normaali-kolmejuusto" type="radio" name="pohja-kolmejuusto" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+
+                    <label for="pohja-gluteeniton-kolmejuusto">
+                        <input id="pohja-gluteeniton-kolmejuusto" type="radio" name="pohja-kolmejuusto" value="gluteeniton">
+                        <span>Gluteeniton</span>
+                    </label>
+                </div>
+                <h3>Pizzojen lukumäärä</h3>
+                <input type="number" id="tilaa-montakokolme" value="1" required><br>
+                <input type="button" id="tilaa-submit" value="Tilaa" onclick="lisaatuote('Kolmen-juuston-pizza', 'Parmesaani, Mozzarella, Aura Juusto', 'koko-kolmejuusto', 'pohja-kolmejuusto' ,'tilaa-montakoopera', 10.50)">
+            </form>
+        </div>
+<!-- ======================================== -->
+<!-- ====================MENU ITEM 4==================== -->
+        <div class="menu-item">
+            <img src="img/opera-pizza.jpg">
+            <h1>Opera Pizza</h1>
+            <p>Täytteet: Kinkku, Tonnikala</p>
+            <p>Hinta: 8.50€</p>
+            </img>
+            <form class="menu-tilaa">
+                <h3>Pizzan koko</h3>
+                <div>
+                    <label for="koko-pieni-opera">
+                    <input id="koko-pieni-opera" type="radio" name="koko-opera" value="pieni">
+                    <span>Pieni</span>
+                    </label>
+
+                    <label for="koko-normaali-opera">
+                    <input id="koko-normaali-opera" type="radio" name="koko-opera" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+
+                    <label for="koko-perhe-opera">
+                    <input id="koko-perhe-opera" type="radio" name="koko-opera" value="perhe">
+                    <span>Perhe</span>
+                    </label>
+                </div>
+                <h3>Pizzojen pohja</h3>
+                <div>
+                    <label for="pohja-normaali-opera">
+                    <input id="pohja-normaali-opera" type="radio" name="pohja-opera" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+                    <label for="pohja-gluteeniton-opera">
+                        <input id="pohja-gluteeniton-opera" type="radio" name="pohja-opera" value="gluteeniton">
+                        <span>Gluteeniton</span>
+                    </label>
+                </div>
+                <h3>Pizzojen lukumäärä</h3>
+                <input type="number" id="tilaa-montakoopera" value="1" required><br>
+                <input type="button" id="tilaa-submit" value="Tilaa" onclick="lisaatuote('Opera-pizza', 'Kinkku, Tonnikala', 'koko-opera', 'pohja-opera' ,'tilaa-montakoopera', 8.50)">
+            </form>
+        </div>
+<!-- ======================================== -->
+<!-- ====================MENU ITEM 5==================== -->
+        <div class="menu-item">
+            <img src="img/dillinger-pizza.jpg">
+            <h1>Dillinger Pizza</h1>
+            <p>Täytteet: Kinkku, Salami, Jauheliha, Sipuli</p>
+            <p>Hinta: 10.50€</p>
+            </img>
+            <form class="menu-tilaa">
+                <h3>Pizzan koko</h3>
+                <div>
+                    <label for="koko-pieni">
+                    <input id="koko-pieni" type="radio" name="koko5" value="pieni">
+                    <span>Pieni</span>
+                    </label>
+                    <label for="koko-normaali">
+                    <input id="koko-normaali" type="radio" name="koko5" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+                    <label for="koko-perhe">
+                    <input id="koko-perhe" type="radio" name="koko5" value="perhe">
+                    <span>Perhe</span>
+                    </label>
+                </div>
+                <h3>Pizzojen pohja</h3>
+                <div>
+                    <label for="pohja-normaali">
+                    <input id="pohja-normaali" type="radio" name="pohja5" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+
+                    <label for="pohja-gluteeniton">
+                        <input id="pohja-gluteeniton" type="radio" name="pohja5" value="gluteeniton">
+                        <span>Gluteeniton</span>
+                    </label>
+                </div>
+                <h3>Pizzojen lukumäärä</h3>
+                <input type="number" id="tilaa-montako5" value="1" required><br>
+                <input type="button" id="tilaa-submit" value="Tilaa" onclick="lisaatuote('Dillinger-pizza', 'Kinkku, Salami, Jauheliha, Sipuli', 'koko5', 'pohja5' ,'tilaa-montako5', 10.50)">
+            </form>
+        </div>
+<!-- =================================================== -->
+<!-- ====================MENU ITEM 6==================== -->
+        <div class="menu-item">
+            <img src="img/menu1.jpg">
+            <h1>Italia Pizza</h1>
+            <p>Täytteet: Salami, Tomaatti, Mozzarella</p>
+            <p>Hinta: 9.50€</p>
+            </img>
+            <form class="menu-tilaa">
+                <h3>Pizzan koko</h3>
+                <div>
+                    <label for="koko-pieni">
+                    <input id="koko-pieni" type="radio" name="koko6" value="perhe">
+                    <span>Pieni</span>
+                    </label>
+                    <label for="koko-normaali">
+                    <input id="koko-normaali" type="radio" name="koko6" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+                    <label for="koko-perhe">
+                    <input id="koko-perhe" type="radio" name="koko6" value="pieni">
+                    <span>Perhe</span>
+                    </label>
+                </div>
+                <h3>Pizzojen pohja</h3>
+                <div>
+                    <label for="pohja-normaali">
+                    <input id="pohja-normaali" type="radio" name="pohja6" value="normaali">
+                    <span>Normaali</span>
+                    </label>
+                    <label for="pohja-gluteeniton">
+                        <input id="pohja-gluteeniton" type="radio" name="pohja" value="gluteeniton">
+                        <span>Gluteeniton</span>
+                    </label>
+                </div>
+                <h3>Pizzojen lukumäärä</h3>
+                <input type="number" id="tilaa-montakoitalia" value="1" required><br>
+                <input type="button" id="tilaa-submit" value="Tilaa" onclick="lisaatuote('Italia-pizza', 'Salami, Tomaatti, Mozzarella', 'koko8', 'pohja6' ,'tilaa-montakoitalia', 9.50)">
+            </form>
+        </div>
+    </div>
+<!-- ====================MENU END==================== -->
+<!-- ====================OSTOSKORI LINK==================== -->
+    <a href="ostoskori.html" class="ostoskori-link-div">
+        <div class="ostoskori-link-div">
+            <i class="fa-solid fa-cart-shopping ostoskori-icon"></i>
+        </div>
+    </a>
+<!-- ====================OSTOSKORI LINK END==================== -->
+</body>
+
+
+
+
+<!-- ====================FOOTER START==================== -->
+<footer id="footer" class="footer-body">
+    <div class="yhteystiedot">
+        <h2>Yhteystiedot</h2>
+        <p class="yhteystiedot">Parhaat Pizzat<br> Esimerkkikatu 10<br> 00100 Helsinki<br> Puhelin: 0467 849 485<br> Sähköposti: parhaat.pizzat@emaili.fi</p>
+        <img class="gmap" title="En halunnut evästeitä" src="img/map.png">
+    </div>
+    <div class="palaute">
+        <form action="">
+            <h2>Palaute</h2>
+            <h3>Etunimi</h3>
+            <input id="palaute-nimi" class="input" type="text" placeholder="Etunimi">
+            <h3>Sukunimi</h3>
+            <input id="palaute" class="input" type="text" placeholder="Sukunimi">
+            <h3>Sähköposti</h3>
+            <input id="palaute" class="input" type="email" placeholder="Sähköposti">
+            <h3>Palautteesi</h3>
+            <textarea id="palaute" cols="30" rows="4" placeholder="Palautteesi..."></textarea>
+            <h3>Tyytyväisyytesi</h3>
+            <div class="palaute-stars" id="palaute-stars">
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+            </div>
+            <input type="submit" id="submit-palaute" onclick="palautet()">
+        </form>
+    </div>
+</footer>
+<!-- ====================FOOTER END==================== -->
+
+
+<script>
+    document.getElementById("Kbutton").addEventListener("click", function() {
+        document.getElementById("popupLogin").style.display = "flex";
+    })
+
+    document.getElementById("close").addEventListener("click", function() {
+        document.getElementById("popupLogin").style.display = "none";
+    })
+
+    document.getElementById("button1").addEventListener("click", function() {
+        document.getElementById("popupRegister").style.display = "flex";
+    })
+
+    document.getElementById("close1").addEventListener("click", function() {
+        document.getElementById("popupRegister").style.display = "none ";
+    })
+</script>
+
+</html>

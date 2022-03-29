@@ -1,0 +1,205 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Parhaat Pizzat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="JS\generaattori.js"></script>
+    <script src="JS\script.js"></script>
+    <script src="https://kit.fontawesome.com/0b5c6fa213.js" crossorigin="anonymous"></script>
+    <script src= "JS\Kir.JS"> </script>
+</head>
+
+<body>
+    <nav class="navbar-up">
+        <a class="logo" href="index.html">Parhaat Pizzat</a>
+        <a class="links" href="fantasiapizza.html">Fantasia Pizza Generaattori<i class="fa-solid fa-star icon"></i></a>
+        <a class="links" href="index.html #content">Menu<i class="fa-solid fa-bars icon"></i></a>
+        <div></div>
+        <a href="#" class="button-kir" id="Kbutton">Kirjaudu Sisään<i class="fa-solid fa-arrow-right-to-bracket icon"></i></a>
+        <a href="#" class="button-kir" id="button1">Rekisteröidy<i class="fa-solid fa-arrow-right-to-bracket icon"></i></a>
+        <h1 class="nametag" id="outputtext"></h1>
+        <i id="nametag"class="fa-solid fa-user icon nametag"></i>
+        <a href="fantasiapizza.html" class="button-kir" id="kirjauduUlos_nappi" onclick="ulos()">Kirjaudu ulos<i class="fa-solid fa-arrow-right-from-bracket icon"></i></a>
+    </nav>
+
+    <div class="popupRegister" id="popupRegister">
+        <div class="popup-content">
+            <i id="close1" class="fa-solid fa-xmark icon popup x"></i>
+            <i class="fa-solid fa-user icon popup"></i>
+            <form id="rekisteroitymis-lomake">
+                <input class="inputReg" id="name1" type="text" placeholder="Syötä nimesi" value="" />
+
+                <input class="inputReg" id="pw1" type="password" placeholder="Syötä salasana" value="" />
+                <input class="inputReg" id="pw2" type="password" placeholder="Syötä salasanasi uudestaan" value="" />
+
+                <input class="inputReg" id="rekisteroidy-nappi" type="submit" onclick="Rekis()" value="Rekisteröidy" />
+            </form>
+        </div>
+    </div>
+
+    <div class="popupLogin" id="popupLogin">
+        <div class="popup-content">
+            <i id="close" class="fa-solid fa-xmark icon popup x"></i>
+            <i class="fa-solid fa-user icon popup"></i>
+            <form name="loginForm">
+                <input class="inputReg" id="username" type="text" placeholder="Nimi" value="">
+
+                <input class="inputReg" id="password" type="password" placeholder="Salasana" value="">
+                <input class="inputReg" id="kirjaudu-nappi" type="submit" onclick="testa()" value="Kirjaudu sisään" />
+            </form>
+        </div>
+    </div>
+    <section class="info">
+        <div class="div-tietoja">
+            <h2>Fantasia Pizza</h2>
+                <div class="fantasia">
+                    <div class="fform">
+                        <div>
+                        <form id="Pohja" class="fteksti">
+                            <h3>Valitse Pohja</h3>
+                            <input class="fnappi" id="normi" type="button" value="Normaali" onclick="pohjja(1)" />
+                            <input class="fnappi" id="glut" type="button" value="Gluteeniton" onclick="pohjja(2)" />
+                        </form>
+                        </div>
+                        <form id="Koko" class="fteksti">
+                            <h3>Valitse koko</h3>
+                            <input class="fnappi" id="normi3" type="button" value="Normaali" onclick="koko(1)" />
+                            <input class="fnappi" id="perhe" type="button" value="Perhe" onclick="koko(2)" />
+                        </form>
+                        <form id="Kastike" class="fteksti">
+                            <h3>Valitse kastike</h3>
+                            <input class="fnappi" id="normi1" type="button" value="Normaali" onclick="kastike(1)" />
+                            <input class="fnappi" id="valk" type="button" value="Valkosipulillinen" onclick="kastike(2)" />
+                        </form>
+                        
+                        <form id="taytteet" class="fteksti">
+                            <h3>Valitse täytteet<br>3-5 täytettä</h3>
+                            <input class="fnappi" id="pepperoni" type="button" value="Pepperoni" onclick="tayte(1)" />
+                            <input class="fnappi" id="ananas" type="button" value="Ananas" onclick="tayte(2)" />
+                            <input class="fnappi" id="salami" type="button" value="Salami" onclick="tayte(3)" />
+                            <input class="fnappi" id="sipuli" type="button" value="Sipuli" onclick="tayte(4)" />
+                            <input class="fnappi" id="kebabliha" type="button" value="Kebabliha" onclick="tayte(5)" />
+                            <input class="fnappi" id="jalopeno" type="button" value="Jalopeno" onclick="tayte(6)" />
+                            <input class="fnappi" id="kana" type="button" value="Kana" onclick="tayte(7)" />
+                            <input class="fnappi" id="pekoni" type="button" value="Pekoni" onclick="tayte(8)" />
+                            <input class="fnappi" id="jauheliha" type="button" value="Jauheliha" onclick="tayte(9)" />
+                            <input class="fnappi" id="kinkku" type="button" value="Kinkku" onclick="tayte(10)" />
+                            <br><br>
+                            <input class="fnappi freset" type="reset" onclick="tyhjenna()">
+                        </form>
+                        <form id="juusto" class="fteksti" >
+                            <h3>Juustot</h3>
+                            <input class="fnappi" id="normi2" type="button" value="Normaali" onclick="juustot(1)" />
+                            <input class="fnappi" id="laktoositon" type="button" value="Laktoositon" onclick="juustot(2)" />
+                        </form>
+                        
+                        <form class="fteksti" >
+                            <h3>Pizzojen lukumäärä</h3>
+                            <input id="monta" type="number" value="1" required onchange="montaf()"/>
+                        </form>
+
+                        <form id="valmis" class="ftektsi">
+                            <h3>Kun olet tehnyt valintasi</h3>
+                            <input class="fnappi" id="valmis1" type="button" value="Valmis" onclick="valmis()"/>  
+                        </form>
+                    </div>
+                    <div class="ftable">
+                        <table>
+                            <tr>
+                              <thead>Fantasia Pizza</thead>
+                            </tr>
+                            <tr>
+                                <td class="ftablehead">Pohja</td>
+                                <td id="fcont-pohja"></td>
+                            </tr>
+                            <tr>
+                                <td class="ftablehead">Koko</td>
+                                <td id="fcont-koko"></td>
+                            </tr>
+                            <tr>
+                                <td class="ftablehead">kastike</td>
+                                <td id="fcont-kastike"></td>
+                            </tr>
+                            <tr>
+                                <td class="ftablehead">Täytteet</td>
+                                <td id="fcont-täytteet"></td>
+                            </tr>
+                            <tr>
+                                <td class="ftablehead">Juustot</td>
+                                <td id="fcont-juustot"></td>
+                            </tr>
+                            <tr>
+                                <td class="ftablehead">Lukumäärä</td>
+                                <td id="fcont-monta"></td>
+                            </tr>
+                            <tr>
+                                <td class="ftablehead">Yhteishinta</td>
+                                <td><span id="fcont-hinta">0</span>€</td>
+                            </tr>
+                          </table>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- ====================OSTOSKORI LINK==================== -->
+    <a href="ostoskori.html" class="ostoskori-link-div">
+        <div class="ostoskori-link-div">
+            <i class="fa-solid fa-cart-shopping ostoskori-icon"></i>
+        </div>
+    </a>
+<!-- ====================OSTOSKORI LINK END==================== -->
+</body>
+<footer id="footer" class="footer-body">
+    <div class="yhteystiedot">
+        <h2>Yhteystiedot</h2>
+        <p class="yhteystiedot">Parhaat Pizzat<br> Esimerkkikatu 10<br> 00100 Helsinki<br> Puhelin: 0467 849 485<br> Sähköposti: parhaat.pizzat@emaili.fi</p>
+        <img class="gmap" title="En halunnut evästeitä" src="img/map.png">
+    </div>
+    <div class="palaute">
+        <form action="">
+            <h2>Palaute</h2>
+            <h3>Etunimi</h3>
+            <input id="palaute-nimi" class="input" type="text" placeholder="Etunimi">
+            <h3>Sukunimi</h3>
+            <input id="palaute" class="input" type="text" placeholder="Sukunimi">
+            <h3>Sähköposti</h3>
+            <input id="palaute" class="input" type="email" placeholder="Sähköposti">
+            <h3>Palautteesi</h3>
+            <textarea id="palaute" cols="30" rows="4" placeholder="Palautteesi..."></textarea>
+            <h3>Tyytyväisyytesi</h3>
+            <div class="palaute-stars" id="palaute-stars">
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+            </div>
+            <input type="submit" id="submit-palaute" onclick="palautet()">
+        </form>
+    </div>
+</footer>
+
+<script>
+    $('.navbar').fadeIn();
+
+    document.getElementById("Kbutton").addEventListener("click", function() {
+        document.getElementById("popupLogin").style.display = "flex";
+    })
+
+    document.getElementById("close").addEventListener("click", function() {
+        document.getElementById("popupLogin").style.display = "none";
+    })
+
+    document.getElementById("button1").addEventListener("click", function() {
+        document.getElementById("popupRegister").style.display = "flex";
+    })
+
+    document.getElementById("close1").addEventListener("click", function() {
+        document.getElementById("popupRegister").style.display = "none ";
+    })
+</script>
+
+</html>

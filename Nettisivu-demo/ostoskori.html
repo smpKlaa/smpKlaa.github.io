@@ -1,0 +1,318 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Parhaat Pizzat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="JS\script.js"></script>
+    <script src="JS\ostoskori.js"></script>
+    <script src="https://kit.fontawesome.com/0b5c6fa213.js" crossorigin="anonymous"></script>
+    <script src= "JS\Kir.JS"> </script>
+</head>
+
+<body>
+    <nav class="navbar-up">
+        <a class="logo" href="index.html">Parhaat Pizzat</a>
+        <a class="links" href="fantasiapizza.html">Fantasia Pizza Generaattori<i class="fa-solid fa-star icon"></i></a>
+        <a class="links" href="index.html #content">Menu<i class="fa-solid fa-bars icon"></i></a>
+        <div></div>
+        <a href="#" class="button-kir" id="Kbutton">Kirjaudu Sisään<i class="fa-solid fa-arrow-right-to-bracket icon"></i></a>
+        <a href="#" class="button-kir" id="button1">Rekisteröidy<i class="fa-solid fa-arrow-right-to-bracket icon"></i></a>
+        <h1 class="nametag" id="outputtext"></h1>
+        <i id="nametag"class="fa-solid fa-user icon nametag"></i>
+        <a href="ostoskori.html" class="button-kir" id="kirjauduUlos_nappi" onclick="ulos()">Kirjaudu ulos<i class="fa-solid fa-arrow-right-from-bracket icon"></i></a>
+    </nav>
+    <div class="popupRegister" id="popupRegister">
+        <div class="popup-content">
+            <i id="close1" class="fa-solid fa-xmark icon popup x"></i>
+            <i class="fa-solid fa-user icon popup"></i>
+            <form id="rekisteroitymis-lomake">
+                <input class="inputReg" id="name1" type="text" placeholder="Syötä nimesi" value="" />
+
+                <input class="inputReg" id="pw1" type="password" placeholder="Syötä salasana" value="" />
+                <input class="inputReg" id="pw2" type="password" placeholder="Syötä salasanasi uudestaan" value="" />
+
+                <input class="inputReg" id="rekisteroidy-nappi" type="submit" onclick="Rekis()" value="Rekisteröidy" />
+            </form>
+        </div>
+    </div>
+
+    <div class="popupLogin" id="popupLogin">
+        <div class="popup-content">
+            <i id="close" class="fa-solid fa-xmark icon popup x"></i>
+            <i class="fa-solid fa-user icon popup"></i>
+            <form name="loginForm">
+                <input class="inputReg" id="username" type="text" placeholder="Nimi" value="">
+
+                <input class="inputReg" id="password" type="password" placeholder="Salasana" value="">
+                <input class="inputReg" id="kirjaudu-nappi" type="submit" onclick="testa()" value="Kirjaudu sisään" />
+            </form>
+        </div>
+    </div>
+    <section class="info">
+        <div class="div-ostoskori">
+            <h2>Ostoskori</h2>
+            <div>
+                <table class="ostoskori-table" id="ostoskori-tablee">
+                    <thead>
+                    <tr>
+                    <th>Pizza</th>
+                    <th>Koko</th>
+                    <th>Pohja</th>
+                    <th>Täytteet</th>
+                    <th>Lukumäärä</th>
+                    <th>Hinta</th>
+                    </tr>
+                    </thead>
+                    <tbody class="ostoskori-table" id="ostoskori-content">
+
+                    <tr id="ostoskori-table-row0">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row1">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row2">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row3">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row4">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row4">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row4">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row4">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row4">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+
+                    <tr id="ostoskori-table-row4">
+                        <td id="ostoskori-nimi"></td>
+                        
+                        <td id="ostoskori-koko"></td>
+
+                        <td id="ostoskori-pohja"></td>
+
+                        <td id="ostoskori-täytteet"></td>
+
+                        <td id="ostoskori-monta"></td>
+
+                        <td><span id="ostoskori-hinta">0</span>€</td>
+
+                    </tr>
+                    </tbody>
+                    </tr>
+
+                    <tfoot>
+                        <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Hinta Yhteensä:</td>
+                        <td><span id="fcont-hinta-yhteensä">0</span>€</td>
+                        </tr>
+                        </tfoot>
+    
+                </table>
+            </div>
+            <div style="width: 70vw; display: flex; flex-direction: row-reverse;">
+            <input class="ostoskori-nappi" type="submit" value="Siirry kuljetukseen">
+            <input class="ostoskori-nappi" style="float:right; background-color: #c09966;" type="button" value="Tyhjennä ostoskori" onclick="ostoskorireset()">
+            </div>
+        </div>
+    </section>
+    <div class="div-kuljetus">
+        <form action="">
+            <h3>Etunimi</h3>
+            <input id="kuljetus-nimi" class="input" type="text" placeholder="Etunimi">
+            <h3>Sukunimi</h3>
+            <input id="kuljetus" class="input" type="text" placeholder="Sukunimi">
+            <h3>Puhelin</h3>
+            <input id="kuljetus" class="input" type="text" placeholder="Puh.">
+            <br>
+            <form action="">
+                <div class="radio">
+                    <div>
+                        <input type="radio" id="valitse-nouto" name="kuljetus-radio">
+                        <label for="valitse-nouto">Nouto</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="valitse-kuljetus" name="kuljetus-radio">
+                        <label for="valitse-kuljetus">Ilmainen kuljetus</label>
+                    </div>
+                </div>
+            </form>
+            <h3>Osoite</h3>
+            <input id="kuljetus" class="input" type="text" placeholder="Osoite">
+        </form>
+    </div>
+</body>
+<footer id="footer" class="footer-body">
+    <div class="yhteystiedot">
+        <h2>Yhteystiedot</h2>
+        <p class="yhteystiedot">Parhaat Pizzat<br> Esimerkkikatu 10<br> 00100 Helsinki<br> Puhelin: 0467 849 485<br> Sähköposti: parhaat.pizzat@emaili.fi</p>
+        <img class="gmap" title="En halunnut evästeitä" src="img/map.png">
+    </div>
+    <div class="palaute">
+        <form action="">
+            <h2>Palaute</h2>
+            <h3>Etunimi</h3>
+            <input id="palaute-nimi" class="input" type="text" placeholder="Etunimi">
+            <h3>Sukunimi</h3>
+            <input id="palaute" class="input" type="text" placeholder="Sukunimi">
+            <h3>Sähköposti</h3>
+            <input id="palaute" class="input" type="email" placeholder="Sähköposti">
+            <h3>Palautteesi</h3>
+            <textarea id="palaute" cols="30" rows="4" placeholder="Palautteesi..."></textarea>
+            <h3>Tyytyväisyytesi</h3>
+            <div class="palaute-stars" id="palaute-stars">
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+                <a href="#1"><i class="fa-solid fa-star"></i></a>
+            </div>
+            <input type="submit" id="submit-palaute" onclick="palautet()">
+        </form>
+    </div>
+</footer>
+
+<script>
+    $('.navbar').fadeIn();
+
+    document.getElementById("Kbutton").addEventListener("click", function() {
+        document.getElementById("popupLogin").style.display = "flex";
+    })
+
+    document.getElementById("close").addEventListener("click", function() {
+        document.getElementById("popupLogin").style.display = "none";
+    })
+
+    document.getElementById("button1").addEventListener("click", function() {
+        document.getElementById("popupRegister").style.display = "flex";
+    })
+
+    document.getElementById("close1").addEventListener("click", function() {
+        document.getElementById("popupRegister").style.display = "none ";
+    })
+</script>
+
+</html>
