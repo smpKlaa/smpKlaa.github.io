@@ -1,0 +1,12 @@
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\bin\Debug\netcoreapp3.1\HeiKayttaja.exe
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\bin\Debug\netcoreapp3.1\HeiKayttaja.deps.json
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\bin\Debug\netcoreapp3.1\HeiKayttaja.runtimeconfig.json
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\bin\Debug\netcoreapp3.1\HeiKayttaja.runtimeconfig.dev.json
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\bin\Debug\netcoreapp3.1\HeiKayttaja.dll
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\bin\Debug\netcoreapp3.1\HeiKayttaja.pdb
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\obj\Debug\netcoreapp3.1\HeiKayttaja.csproj.CoreCompileInputs.cache
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\obj\Debug\netcoreapp3.1\HeiKayttaja.AssemblyInfoInputs.cache
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\obj\Debug\netcoreapp3.1\HeiKayttaja.AssemblyInfo.cs
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\obj\Debug\netcoreapp3.1\HeiKayttaja.dll
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\obj\Debug\netcoreapp3.1\HeiKayttaja.pdb
+C:\Users\sampo.klaavo\source\repos\HeiKayttaja\HeiKayttaja\obj\Debug\netcoreapp3.1\HeiKayttaja.genruntimeconfig.cache
