@@ -1,0 +1,13 @@
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\bin\Debug\netcoreapp3.1\Harjoituksia_D.exe
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\bin\Debug\netcoreapp3.1\Harjoituksia_D.deps.json
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\bin\Debug\netcoreapp3.1\Harjoituksia_D.runtimeconfig.json
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\bin\Debug\netcoreapp3.1\Harjoituksia_D.runtimeconfig.dev.json
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\bin\Debug\netcoreapp3.1\Harjoituksia_D.dll
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\bin\Debug\netcoreapp3.1\Harjoituksia_D.pdb
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\obj\Debug\netcoreapp3.1\Harjoituksia_D.csprojAssemblyReference.cache
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\obj\Debug\netcoreapp3.1\Harjoituksia_D.csproj.CoreCompileInputs.cache
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\obj\Debug\netcoreapp3.1\Harjoituksia_D.AssemblyInfoInputs.cache
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\obj\Debug\netcoreapp3.1\Harjoituksia_D.AssemblyInfo.cs
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\obj\Debug\netcoreapp3.1\Harjoituksia_D.dll
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\obj\Debug\netcoreapp3.1\Harjoituksia_D.pdb
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_D\Harjoituksia_D\obj\Debug\netcoreapp3.1\Harjoituksia_D.genruntimeconfig.cache
