@@ -215,9 +215,10 @@ namespace Harjoituksia_D
             Console.Write("Syötä luku: ");
             luku1 = double.Parse(Console.ReadLine());
 
-            for(int i = 1; i < 11; i++)
+            //Tulostetaan kertotaulut For-silmukkaa käyttäen joka toistuu 10 kertaa.
+            for(int i = 1; i < 11; i++)//i-muuttuja kasvaa yhdestä kymmeneen jokaisella silmukan toistolla.
             {
-                Console.WriteLine("{0} x {1} = {2}", luku1, i, luku1 * i);
+                Console.WriteLine("{0} x {1} = {2}", luku1, i, luku1 * i);//i-muuttujan arvo toimii yhtälön kertojana.
             }
         }
     }
