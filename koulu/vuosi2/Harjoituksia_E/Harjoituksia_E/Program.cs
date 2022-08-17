@@ -99,6 +99,7 @@ namespace Harjoituksia_E
                 Console.Write(kirjain);
             }
             Console.WriteLine();
+            Console.WriteLine();
 
 
 
@@ -157,13 +158,13 @@ namespace Harjoituksia_E
             string pisinSana = "";
             
             //Foreach-silmukka käy läpi jokaisen merkkijonon taulukosta.
-            foreach(string sana in sanat)
+            foreach(string sa in sanat)
             {
                 //If-lause vertaa pisimmän sanan pituutta uuden sanan pituuteen.
-                if(pisinSana.Length < sana.Length)
+                if(pisinSana.Length < sa.Length)
                 {
                     //Jos uusi sana on pidempi kuin edellinen, sana tallennetaan pisimmäksi sanaksi.
-                    pisinSana = sana;
+                    pisinSana = sa;
                 }
             }
 
@@ -177,6 +178,8 @@ namespace Harjoituksia_E
             //
             //Ohjelma tulostaa parittomat luvut 0-99 väliltä.
 
+            Console.WriteLine("---16.Parilliset luvut---");
+
             //For-silmukka käy jokaisen luvun läpi väliltä 0-100
             for (int i = 0; i < 100; i++)
             {
@@ -188,12 +191,15 @@ namespace Harjoituksia_E
                 }
             }
             Console.WriteLine();
+            Console.WriteLine();
 
 
 
             //17.Tehtävä
             //
             //Ohjelma tulostaa kolmella jaolliset luvut väliltä 0-99.
+
+            Console.WriteLine("---17. 3 jakautuvat luvut---");
 
             //For-silmukka käy jokaisen numeron läpi väliltä 0-100
             for (int i = 0; i < 100; i++)
