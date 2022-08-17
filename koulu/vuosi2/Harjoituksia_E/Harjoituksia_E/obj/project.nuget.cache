@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vFaSrhvSEyTbgVvmFg/WV/MLsRQOrqllvOXPRvQtc/NDDE9x9DTQ9YiJlRnYwIVtAh3VJyVt35z04zIsd/G8Ag==",
+  "dgSpecHash": "pOMzF9G9vyOSENdn+hgK07O4WXmUYr2oqTGVObnujNd+GlebaDmsZuymFPALsxDfafNPwewKpTLyVsfYEEir4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_E\\Harjoituksia_E\\Harjoituksia_E.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\sampo.klaavo\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\Tiedostot\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_E\\Harjoituksia_E\\Harjoituksia_E.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sampo.klaavo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
   "logs": []
 }
