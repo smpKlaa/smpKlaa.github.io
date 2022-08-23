@@ -11,3 +11,16 @@ C:\Users\sampo.klaavo\source\repos\Harjoituksia_B_1\Harjoituksia_B_1\obj\Debug\n
 C:\Users\sampo.klaavo\source\repos\Harjoituksia_B_1\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.dll
 C:\Users\sampo.klaavo\source\repos\Harjoituksia_B_1\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.pdb
 C:\Users\sampo.klaavo\source\repos\Harjoituksia_B_1\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.genruntimeconfig.cache
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\bin\Debug\netcoreapp3.1\Harjoituksia_B_1.exe
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\bin\Debug\netcoreapp3.1\Harjoituksia_B_1.deps.json
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\bin\Debug\netcoreapp3.1\Harjoituksia_B_1.runtimeconfig.json
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\bin\Debug\netcoreapp3.1\Harjoituksia_B_1.runtimeconfig.dev.json
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\bin\Debug\netcoreapp3.1\Harjoituksia_B_1.dll
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\bin\Debug\netcoreapp3.1\Harjoituksia_B_1.pdb
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.csprojAssemblyReference.cache
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.csproj.CoreCompileInputs.cache
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.AssemblyInfoInputs.cache
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.AssemblyInfo.cs
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.dll
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.pdb
+C:\Users\sampo.klaavo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Harjoituksia_B\Harjoituksia_B_1\obj\Debug\netcoreapp3.1\Harjoituksia_B_1.genruntimeconfig.cache

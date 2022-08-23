@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sampo.klaavo\\source\\repos\\Harjoituksia_B_1\\Harjoituksia_B_1\\Harjoituksia_B_1.csproj": {}
+    "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_B\\Harjoituksia_B_1\\Harjoituksia_B_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sampo.klaavo\\source\\repos\\Harjoituksia_B_1\\Harjoituksia_B_1\\Harjoituksia_B_1.csproj": {
+    "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_B\\Harjoituksia_B_1\\Harjoituksia_B_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sampo.klaavo\\source\\repos\\Harjoituksia_B_1\\Harjoituksia_B_1\\Harjoituksia_B_1.csproj",
+        "projectUniqueName": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_B\\Harjoituksia_B_1\\Harjoituksia_B_1.csproj",
         "projectName": "Harjoituksia_B_1",
-        "projectPath": "C:\\Users\\sampo.klaavo\\source\\repos\\Harjoituksia_B_1\\Harjoituksia_B_1\\Harjoituksia_B_1.csproj",
+        "projectPath": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_B\\Harjoituksia_B_1\\Harjoituksia_B_1.csproj",
         "packagesPath": "C:\\Users\\sampo.klaavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sampo.klaavo\\source\\repos\\Harjoituksia_B_1\\Harjoituksia_B_1\\obj\\",
+        "outputPath": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_B\\Harjoituksia_B_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
