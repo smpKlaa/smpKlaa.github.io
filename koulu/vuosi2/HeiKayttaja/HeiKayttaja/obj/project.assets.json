@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sampo.klaavo\\source\\repos\\HeiKayttaja\\HeiKayttaja\\HeiKayttaja.csproj",
+      "projectUniqueName": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\HeiKayttaja\\HeiKayttaja\\HeiKayttaja.csproj",
       "projectName": "HeiKayttaja",
-      "projectPath": "C:\\Users\\sampo.klaavo\\source\\repos\\HeiKayttaja\\HeiKayttaja\\HeiKayttaja.csproj",
+      "projectPath": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\HeiKayttaja\\HeiKayttaja\\HeiKayttaja.csproj",
       "packagesPath": "C:\\Users\\sampo.klaavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sampo.klaavo\\source\\repos\\HeiKayttaja\\HeiKayttaja\\obj\\",
+      "outputPath": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\HeiKayttaja\\HeiKayttaja\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

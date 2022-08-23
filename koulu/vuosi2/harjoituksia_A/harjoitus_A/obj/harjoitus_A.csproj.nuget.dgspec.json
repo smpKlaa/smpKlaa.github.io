@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sampo.klaavo\\source\\repos\\harjoitus_A\\harjoitus_A\\harjoitus_A.csproj": {}
+    "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_A\\harjoitus_A\\harjoitus_A.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sampo.klaavo\\source\\repos\\harjoitus_A\\harjoitus_A\\harjoitus_A.csproj": {
+    "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_A\\harjoitus_A\\harjoitus_A.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sampo.klaavo\\source\\repos\\harjoitus_A\\harjoitus_A\\harjoitus_A.csproj",
+        "projectUniqueName": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_A\\harjoitus_A\\harjoitus_A.csproj",
         "projectName": "harjoitus_A",
-        "projectPath": "C:\\Users\\sampo.klaavo\\source\\repos\\harjoitus_A\\harjoitus_A\\harjoitus_A.csproj",
+        "projectPath": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_A\\harjoitus_A\\harjoitus_A.csproj",
         "packagesPath": "C:\\Users\\sampo.klaavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sampo.klaavo\\source\\repos\\harjoitus_A\\harjoitus_A\\obj\\",
+        "outputPath": "C:\\Users\\sampo.klaavo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Harjoituksia_A\\harjoitus_A\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
