@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tehtävä_2_Varasto/1.0.0": {
+        "runtime": {
+          "Tehtävä_2_Varasto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tehtävä_2_Varasto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
