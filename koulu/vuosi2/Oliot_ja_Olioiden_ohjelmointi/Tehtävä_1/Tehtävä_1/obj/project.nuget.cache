@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jFel7pBvtAD3nSSqp1HuOK9fW1BY2vaHnJk5/nQ0P0lpT4PS3YMAgJfJo37r6mPr58IsoOrBxW5/GOH+Nu+iSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sampo.klaavo\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\Keuda\\OHKEKE_2022\\Oliot_ja_olioiden_ohjelmointi\\Tehtävä_1\\Tehtävä_1\\Tehtävä_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sampo.klaavo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
