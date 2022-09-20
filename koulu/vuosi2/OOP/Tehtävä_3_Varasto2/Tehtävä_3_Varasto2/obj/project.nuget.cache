@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nipqIpqJ6GlsqKU9WA7fymVxYXMamaUECe1LamrtkrD7VMf5pIGeHK4JPmaYVwwjsclFoeOfM0wVusdwfuiwJA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sampo.klaavo\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\Tiedostot\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\Oliot_ja_Olioiden_ohjelmointi\\Tehtävä_3_Varasto2\\Tehtävä_3_Varasto2\\Tehtävä_3_Varasto2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sampo.klaavo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
