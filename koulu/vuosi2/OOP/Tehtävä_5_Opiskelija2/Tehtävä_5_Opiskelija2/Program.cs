@@ -75,6 +75,7 @@ namespace OlioTehtävä_4_Opiskelija
                 ika++;
                 Console.WriteLine("Opiskelijan ikä oli {0}, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt {1}", tempIka, ika);
             }
+            Console.WriteLine();
         }
         public void OpiskelijanTiedot() //OpiskelijanTiedot metodi tulostaa kenttien opiskelijaNimi, ika ja arvoSana arvot.
         {
