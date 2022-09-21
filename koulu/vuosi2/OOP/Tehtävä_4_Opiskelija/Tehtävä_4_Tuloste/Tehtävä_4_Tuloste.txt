@@ -1,0 +1,65 @@
+Sampo Klaavo Oliotehtävä 4
+**************************
+
+ Systen: Olio luotu käyttämällä ylikuormituskonstruktoria
+ Systen: Olio luotu käyttämällä ylikuormituskonstruktoria
+ Systen: Olio luotu käyttämällä ylikuormituskonstruktoria
+ Systen: Olio luotu käyttämällä ylikuormituskonstruktoria
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Aapo
+Ikä: 17
+Arvosana: 0
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Laura
+Ikä: 17
+Arvosana: 0
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Tero
+Ikä: 17
+Arvosana: 0
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Seppo
+Ikä: 17
+Arvosana: 0
+
+ System: MuutaArvosana metodi käytetty
+ System: MuutaArvosana metodi käytetty
+ System: MuutaArvosana metodi käytetty
+ System: MuutaArvosana metodi käytetty
+ System: Vanhene metodi käytetty
+ System: Vanhene metodi käytetty
+ System: Vanhene metodi käytetty
+ System: Vanhene metodi käytetty
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Aapo
+Ikä: 18
+Arvosana: 7,5
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Laura
+Ikä: 18
+Arvosana: 8
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Tero
+Ikä: 18
+Arvosana: 8,5
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Seppo
+Ikä: 18
+Arvosana: 8,75
+
+ Systen: OpiskelijaLaskuri metodi käytetty
+4

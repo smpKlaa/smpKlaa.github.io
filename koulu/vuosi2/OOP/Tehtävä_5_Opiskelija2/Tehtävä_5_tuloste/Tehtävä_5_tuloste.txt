@@ -1,0 +1,131 @@
+Sampo Klaavo Oliotehtävä 5
+**************************
+
+ Systen: Olio luotu käyttämällä ylikuormituskonstruktoria
+ Systen: Olio luotu käyttämällä ylikuormituskonstruktoria
+ Systen: Olio luotu käyttämällä ylikuormituskonstruktoria
+ Systen: Olio luotu käyttämällä ylikuormituskonstruktoria
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Aapo
+Ikä: 0
+Arvosana: 0
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Laura
+Ikä: 0
+Arvosana: 0
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Tero
+Ikä: 0
+Arvosana: 0
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Seppo
+Ikä: 0
+Arvosana: 0
+
+ System: MuutaArvosana metodi käytetty
+ System: MuutaArvosana metodi käytetty
+ System: MuutaArvosana metodi käytetty
+ System: MuutaArvosana metodi käytetty
+ System: Vanhene metodi käytetty olioon Aapo.
+Opiskelijan ikä oli 0, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 1
+Opiskelijan ikä oli 1, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 2
+Opiskelijan ikä oli 2, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 3
+Opiskelijan ikä oli 3, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 4
+Opiskelijan ikä oli 4, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 5
+Opiskelijan ikä oli 5, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 6
+Opiskelijan ikä oli 6, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 7
+Opiskelijan ikä oli 7, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 8
+Opiskelijan ikä oli 8, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 9
+Opiskelijan ikä oli 9, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 10
+Opiskelijan ikä oli 10, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 11
+Opiskelijan ikä oli 11, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 12
+Opiskelijan ikä oli 12, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 13
+Opiskelijan ikä oli 13, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 14
+
+ System: Vanhene metodi käytetty olioon Laura.
+Opiskelijan ikä oli 0, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 1
+Opiskelijan ikä oli 1, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 2
+Opiskelijan ikä oli 2, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 3
+Opiskelijan ikä oli 3, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 4
+Opiskelijan ikä oli 4, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 5
+Opiskelijan ikä oli 5, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 6
+Opiskelijan ikä oli 6, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 7
+Opiskelijan ikä oli 7, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 8
+Opiskelijan ikä oli 8, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 9
+Opiskelijan ikä oli 9, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 10
+Opiskelijan ikä oli 10, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 11
+Opiskelijan ikä oli 11, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 12
+Opiskelijan ikä oli 12, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 13
+Opiskelijan ikä oli 13, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 14
+Opiskelijan ikä oli 14, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 15
+
+ System: Vanhene metodi käytetty olioon Tero.
+Opiskelijan ikä oli 0, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 1
+Opiskelijan ikä oli 1, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 2
+Opiskelijan ikä oli 2, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 3
+Opiskelijan ikä oli 3, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 4
+Opiskelijan ikä oli 4, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 5
+Opiskelijan ikä oli 5, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 6
+Opiskelijan ikä oli 6, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 7
+Opiskelijan ikä oli 7, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 8
+Opiskelijan ikä oli 8, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 9
+Opiskelijan ikä oli 9, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 10
+Opiskelijan ikä oli 10, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 11
+Opiskelijan ikä oli 11, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 12
+Opiskelijan ikä oli 12, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 13
+Opiskelijan ikä oli 13, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 14
+Opiskelijan ikä oli 14, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 15
+Opiskelijan ikä oli 15, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 16
+
+ System: Vanhene metodi käytetty olioon Seppo.
+Opiskelijan ikä oli 0, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 1
+Opiskelijan ikä oli 1, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 2
+Opiskelijan ikä oli 2, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 3
+Opiskelijan ikä oli 3, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 4
+Opiskelijan ikä oli 4, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 5
+Opiskelijan ikä oli 5, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 6
+Opiskelijan ikä oli 6, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 7
+Opiskelijan ikä oli 7, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 8
+Opiskelijan ikä oli 8, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 9
+Opiskelijan ikä oli 9, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 10
+Opiskelijan ikä oli 10, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 11
+Opiskelijan ikä oli 11, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 12
+Opiskelijan ikä oli 12, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 13
+Opiskelijan ikä oli 13, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 14
+Opiskelijan ikä oli 14, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 15
+Opiskelijan ikä oli 15, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 16
+Opiskelijan ikä oli 16, ikää kasvatettu yhdellä. Opiskelijan ikä on nyt 17
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Aapo
+Ikä: 14
+Arvosana: 7,5
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Laura
+Ikä: 15
+Arvosana: 8
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Tero
+Ikä: 16
+Arvosana: 8,5
+
+ Systen: OpiskelijanTiedot metodi käytetty
+
+Nimi: Seppo
+Ikä: 17
+Arvosana: 8,75
+
+ Systen: OpiskelijaLaskuri metodi käytetty
+4
