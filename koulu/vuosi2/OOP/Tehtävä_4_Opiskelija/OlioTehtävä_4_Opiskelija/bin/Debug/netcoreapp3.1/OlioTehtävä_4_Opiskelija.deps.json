@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OlioTehtävä_4_Opiskelija/1.0.0": {
+        "runtime": {
+          "OlioTehtävä_4_Opiskelija.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OlioTehtävä_4_Opiskelija/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
