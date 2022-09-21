@@ -63,7 +63,7 @@ namespace OlioTehtävä_4_Opiskelija
         }
         public void Vanhene(int value) //Vanhene metodi kasvattaa ika kentän arvoa yksi kerrallaan annetun parametrin verran. Jos ika kentän arvo saavuttaa 18, silmukka pysähtyy.
         {
-            Console.WriteLine(" System: Vanhene metodi käytetty");
+            Console.WriteLine(" System: Vanhene metodi käytetty olioon {0}.", opiskelijanNimi);
             for (;value > 0;value--) //Toistetaan for silmukka annetun arvon verran.
             {
                 if(ika >= 18) //Jos ika kentän arvo saavuttaa 18 tai yli, silmukka pysähtyy-
