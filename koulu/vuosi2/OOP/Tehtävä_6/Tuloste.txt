@@ -1,0 +1,66 @@
+Sampo Klaavo Oliotehtävä 6
+**************************
+
+Luodaan Lentokone olio nimeltä Cessna172. Käytätetään vakiokonstruktoria.
+     System: Lentokone olio luotu vakiokonstruktorilla.
+
+Tulostetaan olion Cessna172 tiedot.
+     System: Lentokoneen Tulostatiedot metodi käytetty.
+Nopeus: 0
+Matkustajien lkm: 0
+Polttoainetta (Litraa): 0
+Maxpaino: 0
+
+Annetaan oliolle arvot Setterillä.
+     System: Polttoaine setteri käytetty.
+     System: MaxPaino setteri käytetty.
+     System: MatkustajaLkm setteri käytetty.
+     System: Nopeus setteri käytetty.
+
+Tulostetaan olion Cessna172 tiedot uudestaan.
+     System: Lentokoneen Tulostatiedot metodi käytetty.
+Nopeus: 300
+Matkustajien lkm: 2
+Polttoainetta (Litraa): 100
+Maxpaino: 400
+
+Nyt luodaan uusi Lentokone olio nimelta Boeing747. Käytetään ylikuormituskonstruktoria.
+     System: Lentokone olio luotu ylikuormituskonstruktorilla.
+
+Voimme laskea Lentokoneen matkustajien painorajoitteen.
+     System: PainoLaskuri metodi käytetty
+Lentokoneen Max Paino on 5000kg, Lentokoneen tämänhetkinen paino on 4000kg, tilaa jäljellä 1000kg
+
+Voimme kasvattaa polttoaine kentän arvoa Tankkaa-metodilla.
+     System: Tankkaa metodi käytetty
+
+Nyt tulostetaan olion Boeing747 kenttien tiedot.
+     System: Lentokoneen Tulostatiedot metodi käytetty.
+Nopeus: 900
+Matkustajien lkm: 40
+Polttoainetta (Litraa): 1000
+Maxpaino: 5000
+
+Luodaan nyt Laiva olio nimeltä Titanic. Käytetään vakiokonstruktoria,
+     System: Laiva olio luotu vakiokonstruktorilla.
+
+Voimme tallentaa laivan nimen olion nimikenttään käyttämällä NimeäLaiva-metodia.
+     System: NimeäLaiva metodi käytetty
+
+Annetaan olion muille kentille arvot setterillä.
+     System: VapaatHytit setteri käytetty.
+     System: MatkustajaLkm setteri käytetty.
+     System: Nopeus setteri käytetty.
+
+Voimme laskea vapaiden hyttien määrän Hytit-metodilla
+     System: Hytit metodi käytetty
+Hyttejä yhteensä 500, matkustajia 200, vapaita hyttejä jäljellä 300
+
+Tulostetaan nyt olion Titanic tiedot Tulostatiedot-metodilla.
+     System: Laivan Tulostatiedot metodi käytetty.
+Nopeus: 40
+Matkustajien lkm: 200
+Laivan nimi: Titanic
+Vapaita hyttejä: 300
+     System: Oliolaskuri metodi käytetty
+Kulkuneuvo - olioiden ja lapsien lukumäärä: 3
