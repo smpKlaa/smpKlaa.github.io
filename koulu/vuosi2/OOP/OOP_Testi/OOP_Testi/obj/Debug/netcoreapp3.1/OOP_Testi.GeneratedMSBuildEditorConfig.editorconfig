@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = OOP_Testi
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\OOP_Testi\OOP_Testi\
+=======
+build_property.ProjectDir = C:\Users\sampo\Source\Repos\smpKlaa\smpKlaa.github.io\koulu\vuosi2\OOP\OOP_Testi\OOP_Testi\
+>>>>>>> 9049397ceb623af2482ee2d78b002276b55aede3

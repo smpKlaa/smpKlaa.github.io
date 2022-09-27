@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = OlioTehtävä_4_Opiskelija
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_4_Opiskelija\OlioTehtävä_4_Opiskelija\
+=======
+build_property.ProjectDir = C:\Users\sampo\Source\Repos\smpKlaa\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_4_Opiskelija\OlioTehtävä_4_Opiskelija\
+>>>>>>> 9049397ceb623af2482ee2d78b002276b55aede3

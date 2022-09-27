@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = Harjoituksia_B_1
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\Cs_Ohjelmoinnin_perusteet\Harjoituksia_B\Harjoituksia_B_1\
+=======
+build_property.ProjectDir = C:\Users\sampo\Source\Repos\smpKlaa\smpKlaa.github.io\koulu\vuosi2\Cs_Ohjelmoinnin_perusteet\Harjoituksia_B\Harjoituksia_B_1\
+>>>>>>> 9049397ceb623af2482ee2d78b002276b55aede3
