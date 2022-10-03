@@ -1,0 +1,14 @@
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\bin\Debug\netcoreapp3.1\Tehtävä_9.exe
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\bin\Debug\netcoreapp3.1\Tehtävä_9.deps.json
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\bin\Debug\netcoreapp3.1\Tehtävä_9.runtimeconfig.json
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\bin\Debug\netcoreapp3.1\Tehtävä_9.runtimeconfig.dev.json
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\bin\Debug\netcoreapp3.1\Tehtävä_9.dll
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\bin\Debug\netcoreapp3.1\Tehtävä_9.pdb
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\obj\Debug\netcoreapp3.1\Tehtävä_9.csproj.AssemblyReference.cache
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\obj\Debug\netcoreapp3.1\Tehtävä_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\obj\Debug\netcoreapp3.1\Tehtävä_9.AssemblyInfoInputs.cache
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\obj\Debug\netcoreapp3.1\Tehtävä_9.AssemblyInfo.cs
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\obj\Debug\netcoreapp3.1\Tehtävä_9.csproj.CoreCompileInputs.cache
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\obj\Debug\netcoreapp3.1\Tehtävä_9.dll
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\obj\Debug\netcoreapp3.1\Tehtävä_9.pdb
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_9\Tehtävä_9\obj\Debug\netcoreapp3.1\Tehtävä_9.genruntimeconfig.cache
