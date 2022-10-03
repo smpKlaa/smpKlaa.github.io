@@ -1,0 +1,19 @@
+Sampo Klaavo Oliotehtävä 7
+**************************
+
+System: Kiuas olio luotu vakiokonstruktorilla.
+System: Arvot metodi käytetty.
+Virta: False
+Lämpötila: 0C
+Kosteus: 0
+
+System: Lämpö metodi käytetty;
+
+System: Kosteus metodi käytetty;
+
+System: Päälle metodi käytetty;
+
+System: Arvot metodi käytetty.
+Virta: True
+Lämpötila: 65C
+Kosteus: 100
