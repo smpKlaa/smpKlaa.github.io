@@ -22,17 +22,33 @@ namespace Tehtävä_7
             Console.WriteLine();
             virta = false;
         }
-        public void Lämpö(double value) //Lämpö metodilla voi muokata kiukaan Lämpö kentän arvoa.
+        public void Lämpö(double value) //Lämpö metodilla voi muokata kiukaan Lämpö kentän arvoa kiukaan ollessa päällä.
         {
             Console.WriteLine("System: Lämpö metodi käytetty;");
             Console.WriteLine();
-            lämpötila = value;
+            if (virta == true)
+            {
+                lämpötila = value;
+            }
+            else
+            {
+                Console.WriteLine("SystemERROR: Lämpötilaa ei voida asettaa koska kiuas on kiinni.");
+                Console.WriteLine();
+            }
         }
-        public void Kosteus(double value) //Kosteus metodilla voi muokata kiukaan kosteus kentän arvoa.
+        public void Kosteus(double value) //Kosteus metodilla voi muokata kiukaan kosteus kentän arvoa kiukaan ollessa päällä.
         {
             Console.WriteLine("System: Kosteus metodi käytetty;");
             Console.WriteLine();
-            kosteus = value;
+            if (virta == true)
+            {
+                kosteus = value;
+            }
+            else
+            {
+                Console.WriteLine("SystemERROR: Kosteutta ei voida asettaa koska kiuas on kiinni.");
+                Console.WriteLine();
+            }
         }
         public void Arvot() //Arvot metodi tulostaa olion arvot konsoliin.
         {
@@ -47,9 +63,18 @@ namespace Tehtävä_7
         public Kiuas() //Vakiokonstruktori
         {
             Console.WriteLine("System: Kiuas olio luotu vakiokonstruktorilla.");
+            Console.WriteLine();
             virta = false;
             lämpötila =0;
             kosteus = 0;
+        }
+        public Kiuas(double u_lämpötila, double u_kosteus) //Ylikuormituskonstruktori
+        {
+            Console.WriteLine("System: Kiuas olio luotu ylikuormituskonstruktorilla.");
+            Console.WriteLine();
+            virta = true;
+            lämpötila = u_lämpötila;
+            kosteus = u_kosteus;
         }
     }
     class Program
@@ -66,9 +91,16 @@ namespace Tehtävä_7
 
             Kiuas1.Lämpö(65);
             Kiuas1.Kosteus(100);
+
             Kiuas1.Päälle();
+            Kiuas1.Lämpö(65);
+            Kiuas1.Kosteus(100);
 
             Kiuas1.Arvot();
+
+            Kiuas Kiuas2 = new Kiuas(70, 100);
+
+            Kiuas2.Arvot();
         }
     }
 }

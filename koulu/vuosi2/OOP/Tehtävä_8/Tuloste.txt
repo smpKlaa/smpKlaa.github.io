@@ -1,0 +1,40 @@
+Sampo Klaavo OlioTehtävä 8
+**************************
+
+System: Pesukone-olio luotu.
+System: TulostaOhjelma metodi käytetty.
+Valittu pesuohjelma:
+Pesuaika: 0min
+Pesulämpötila: 0C
+Pesu RPM: 0
+
+System: KevytPesu metodi käytetty.
+
+System: TulostaOhjelma metodi käytetty.
+Valittu pesuohjelma: Kevytpesu
+Pesuaika: 60min
+Pesulämpötila: 50C
+Pesu RPM: 1000
+
+System: RajuPesu metodi käytetty.
+
+System: TulostaOhjelma metodi käytetty.
+Valittu pesuohjelma: Rajupesu
+Pesuaika: 120min
+Pesulämpötila: 60C
+Pesu RPM: 5000
+
+System: OmaOhjelma metodi käytetty.
+Oma pesuohjelma luotu arvoilla:
+Pesuaika: 50min
+Pesulämpötila: 40C
+RPM: 1800
+
+System: TulostaOhjelma metodi käytetty.
+Valittu pesuohjelma: OmaPesuOhjelma
+Pesuaika: 50min
+Pesulämpötila: 40C
+Pesu RPM: 1800
+
+System: AloitaPesu metodi käytetty.
+Pesu käynnistyy...
