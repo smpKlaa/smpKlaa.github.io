@@ -12,3 +12,17 @@ C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\
 C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMK_KonsoliOhjelma\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.dll
 C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMK_KonsoliOhjelma\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.pdb
 C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMK_KonsoliOhjelma\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.genruntimeconfig.cache
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.csproj.AssemblyReference.cache
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.AssemblyInfoInputs.cache
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.AssemblyInfo.cs
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.csproj.CoreCompileInputs.cache
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.dll
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.pdb
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\bin\Debug\netcoreapp3.1\AMK_KonsoliSovellus.exe
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\bin\Debug\netcoreapp3.1\AMK_KonsoliSovellus.deps.json
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\bin\Debug\netcoreapp3.1\AMK_KonsoliSovellus.runtimeconfig.json
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\bin\Debug\netcoreapp3.1\AMK_KonsoliSovellus.runtimeconfig.dev.json
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\bin\Debug\netcoreapp3.1\AMK_KonsoliSovellus.dll
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\bin\Debug\netcoreapp3.1\AMK_KonsoliSovellus.pdb
+C:\Users\sampo\Documents\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\AMKsovellus\AMK_KonsoliSovellus\AMK_KonsoliSovellus\obj\Debug\netcoreapp3.1\AMK_KonsoliSovellus.genruntimeconfig.cache
