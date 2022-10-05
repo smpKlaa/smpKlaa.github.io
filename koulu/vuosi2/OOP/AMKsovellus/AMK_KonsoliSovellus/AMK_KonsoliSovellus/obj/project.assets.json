@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\sampo.klaavo\\.nuget\\packages\\": {},
+    "C:\\Users\\sampo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sampo.klaavo\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\Tiedostot\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\OOP\\AMKsovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus.csproj",
+      "projectUniqueName": "C:\\Users\\sampo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\OOP\\AMKsovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus.csproj",
       "projectName": "AMK_KonsoliSovellus",
-      "projectPath": "C:\\Users\\sampo.klaavo\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\Tiedostot\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\OOP\\AMKsovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus.csproj",
-      "packagesPath": "C:\\Users\\sampo.klaavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sampo.klaavo\\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\\Tiedostot\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\OOP\\AMKsovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus\\obj\\",
+      "projectPath": "C:\\Users\\sampo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\OOP\\AMKsovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus.csproj",
+      "packagesPath": "C:\\Users\\sampo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sampo\\Documents\\GitHub\\smpKlaa.github.io\\koulu\\vuosi2\\OOP\\AMKsovellus\\AMK_KonsoliSovellus\\AMK_KonsoliSovellus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sampo.klaavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sampo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
