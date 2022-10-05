@@ -160,8 +160,8 @@ namespace AMK_KonsoliSovellus
             Console.WriteLine("+-------------------+");
             Console.WriteLine();
 
-            Console.WriteLine("Opintojakson nimi:"); 
-            Console.WriteLine(" -" +OpintoJaksoNimi);
+            Console.WriteLine("Opintojakson nimi:");
+            Console.WriteLine(" -" + OpintoJaksoNimi);
             Console.WriteLine();
 
             Console.WriteLine("Opettajat:");
@@ -183,7 +183,7 @@ namespace AMK_KonsoliSovellus
         }
 
         //Konstruktorit
-        public OpintoJakso() 
+        public OpintoJakso()
         {
             OpintoJaksoNimi = "";
             opettajat = null;
@@ -192,11 +192,11 @@ namespace AMK_KonsoliSovellus
         public OpintoJakso(string u_opintoJaksoNimi, Opettaja[] u_opettaja, Opiskelija[] u_opiskelija)
         {
             OpintoJaksoNimi = u_opintoJaksoNimi;
-            foreach(Opettaja opettaja in u_opettaja)
+            foreach (Opettaja opettaja in u_opettaja)
             {
                 opettajat.Add(opettaja);
             }
-            foreach(Opiskelija opiskelija in u_opiskelija)
+            foreach (Opiskelija opiskelija in u_opiskelija)
             {
                 opiskelijat.Add(opiskelija);
             }
@@ -278,9 +278,9 @@ namespace AMK_KonsoliSovellus
             Opiskelija o8 = new Opiskelija("Konsta Alikulju");
             Opiskelija o9 = new Opiskelija("Ronja Ryövärintytär");
 
-            OpintoJakso Matikka1 = new OpintoJakso("Matikka1",new Opettaja[] { m1 }, new Opiskelija[] { o0, o1, o2 });
+            OpintoJakso Matikka1 = new OpintoJakso("Matikka1", new Opettaja[] { m1 }, new Opiskelija[] { o0, o1, o2 });
             OpintoJakso Ohjelmointi1 = new OpintoJakso("Ohjelmointi", new Opettaja[] { m2, m1 }, new Opiskelija[] { o3, o4, o5 });
-            OpintoJakso Englanti1 = new OpintoJakso("Englanti1", new Opettaja[] { m0, m1 }, new Opiskelija[] { o6, o7, o8});
+            OpintoJakso Englanti1 = new OpintoJakso("Englanti1", new Opettaja[] { m0, m1 }, new Opiskelija[] { o6, o7, o8 });
             OpintoJakso ÄidinKieli1 = new OpintoJakso("ÄidinKieli1", new Opettaja[] { m0 }, new Opiskelija[] { o0, o1, o2 });
             OpintoJakso ÄidinKieli2 = new OpintoJakso("ÄidinKieli2", new Opettaja[] { m2, m0 }, new Opiskelija[] { o6, o7, o8 });
             OpintoJakso Matikka2 = new OpintoJakso("Matikka2", new Opettaja[] { m1 }, new Opiskelija[] { o7, o8, o9 });
@@ -300,7 +300,8 @@ namespace AMK_KonsoliSovellus
             Englanti1.OpintoJaksonTiedot();
             Ohjelmointi1.OpintoJaksonTiedot();
 
-            Console.WriteLine("Oppilaita Yhteensä: "+ Opiskelija.OpiskelijaLaskuri());
+            Console.WriteLine("Oppilaita Yhteensä: " + Opiskelija.OpiskelijaLaskuri());
+
         }
     }
 }
