@@ -1,0 +1,58 @@
+Sampo Klaavo Oliotehtävä 10
+***************************
+
+System: AddOpiskelijat metodi käytetty.
+System: SetTiedot metodi käytetty.
+
+Asetetaan opiskelijan nro1 tiedot.
+Syötä opiskelijan nimi: Sampo Klaavo
+Syötä opiskelijan osoite: Esimerkkikatu 4
+Suoritettujen kurssien määrä: 8
+
+Asetetaan opiskelijan nro2 tiedot.
+Syötä opiskelijan nimi: Liisa Mikkola
+Syötä opiskelijan osoite: Kävelykatu 17
+Suoritettujen kurssien määrä: 6
+
+Asetetaan opiskelijan nro3 tiedot.
+Syötä opiskelijan nimi: Eetu Niemelä
+Syötä opiskelijan osoite: Kotikatu 44
+Suoritettujen kurssien määrä: 9
+
+System: TulostaKaikki metodi käytetty
+
+Opiskelijan 1 nimi: Sampo Klaavo
+Opiskelijan 1 numero: 1
+Opiskelijan 1 osoite: Esimerkkikatu 4
+Opiskelijan 1 suoritttujen kurssien määrä: 8
+
+Opiskelijan 2 nimi: Liisa Mikkola
+Opiskelijan 2 numero: 2
+Opiskelijan 2 osoite: Kävelykatu 17
+Opiskelijan 2 suoritttujen kurssien määrä: 6
+
+Opiskelijan 3 nimi: Eetu Niemelä
+Opiskelijan 3 numero: 3
+Opiskelijan 3 osoite: Kotikatu 44
+Opiskelijan 3 suoritttujen kurssien määrä: 9
+
+System: UusiKurssisuoritus metodi käytetty
+System: TulostaKaikki metodi käytetty
+
+Opiskelijan 1 nimi: Sampo Klaavo
+Opiskelijan 1 numero: 1
+Opiskelijan 1 osoite: Esimerkkikatu 4
+Opiskelijan 1 suoritttujen kurssien määrä: 8
+
+Opiskelijan 2 nimi: Liisa Mikkola
+Opiskelijan 2 numero: 2
+Opiskelijan 2 osoite: Kävelykatu 17
+Opiskelijan 2 suoritttujen kurssien määrä: 1
+
+Opiskelijan 3 nimi: Eetu Niemelä
+Opiskelijan 3 numero: 3
+Opiskelijan 3 osoite: Kotikatu 44
+Opiskelijan 3 suoritttujen kurssien määrä: 9
+
+System: OlioLaskuri metodi käytetty.
+Olioita luotu: 3
