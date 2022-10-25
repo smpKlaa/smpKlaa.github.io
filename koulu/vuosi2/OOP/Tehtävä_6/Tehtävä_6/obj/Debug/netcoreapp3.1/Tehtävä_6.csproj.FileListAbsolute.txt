@@ -12,3 +12,17 @@ C:\Users\sampo\source\repos\smpKlaa\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä
 C:\Users\sampo\source\repos\smpKlaa\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.dll
 C:\Users\sampo\source\repos\smpKlaa\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.pdb
 C:\Users\sampo\source\repos\smpKlaa\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.genruntimeconfig.cache
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\bin\Debug\netcoreapp3.1\Tehtävä_6.exe
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\bin\Debug\netcoreapp3.1\Tehtävä_6.deps.json
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\bin\Debug\netcoreapp3.1\Tehtävä_6.runtimeconfig.json
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\bin\Debug\netcoreapp3.1\Tehtävä_6.runtimeconfig.dev.json
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\bin\Debug\netcoreapp3.1\Tehtävä_6.dll
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\bin\Debug\netcoreapp3.1\Tehtävä_6.pdb
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.csproj.AssemblyReference.cache
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.AssemblyInfoInputs.cache
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.AssemblyInfo.cs
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.csproj.CoreCompileInputs.cache
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.dll
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.pdb
+C:\Users\sampo.klaavo\OneDrive - Keski-Uudenmaan koulutuskuntayhtymä\Tiedostot\GitHub\smpKlaa.github.io\koulu\vuosi2\OOP\Tehtävä_6\Tehtävä_6\obj\Debug\netcoreapp3.1\Tehtävä_6.genruntimeconfig.cache

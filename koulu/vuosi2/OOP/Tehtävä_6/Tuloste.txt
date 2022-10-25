@@ -2,6 +2,7 @@ Sampo Klaavo Oliotehtävä 6
 **************************
 
 Luodaan Lentokone olio nimeltä Cessna172. Käytätetään vakiokonstruktoria.
+     System: Kulkuneuvo olio luotu vakiokonstruktorilla.
      System: Lentokone olio luotu vakiokonstruktorilla.
 
 Tulostetaan olion Cessna172 tiedot.
@@ -25,6 +26,7 @@ Polttoainetta (Litraa): 100
 Maxpaino: 400
 
 Nyt luodaan uusi Lentokone olio nimelta Boeing747. Käytetään ylikuormituskonstruktoria.
+     System: Kulkuneuvo olio luotu vakiokonstruktorilla.
      System: Lentokone olio luotu ylikuormituskonstruktorilla.
 
 Voimme laskea Lentokoneen matkustajien painorajoitteen.
@@ -42,6 +44,7 @@ Polttoainetta (Litraa): 1000
 Maxpaino: 5000
 
 Luodaan nyt Laiva olio nimeltä Titanic. Käytetään vakiokonstruktoria,
+     System: Kulkuneuvo olio luotu vakiokonstruktorilla.
      System: Laiva olio luotu vakiokonstruktorilla.
 
 Voimme tallentaa laivan nimen olion nimikenttään käyttämällä NimeäLaiva-metodia.
@@ -62,5 +65,5 @@ Nopeus: 40
 Matkustajien lkm: 200
 Laivan nimi: Titanic
 Vapaita hyttejä: 300
-     System: Oliolaskuri metodi käytetty
-Kulkuneuvo - olioiden ja lapsien lukumäärä: 3
+
+Olioiden lukumäärä yhteensä: 3

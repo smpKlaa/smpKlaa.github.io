@@ -36,12 +36,19 @@ namespace Tehtävä_6
                 matkustajaLkm = value;
             }
         }
-
-        //Metodit
-        public static void TulostaLaskuri() //Tulostalaskuri tulostaa luotujen olioiden määrän konsoliin.
+        public Kulkuneuvo() //Vakiokonstruktori
         {
-            Console.WriteLine("     System: Oliolaskuri metodi käytetty");
-            Console.WriteLine("Kulkuneuvo - olioiden ja lapsien lukumäärä: "+ olioLaskuri);
+            Console.WriteLine("     System: Kulkuneuvo olio luotu vakiokonstruktorilla.");
+            nopeus = 0;
+            matkustajaLkm = 0;
+            olioLaskuri++;
+        }
+        public Kulkuneuvo(int u_nopeus, int u_matkustajaLkm) //Ylikuormituskonstruktori
+        {
+            Console.WriteLine("     System: Kulkuneuvo olio luotu ylikuormituskonstruktorilla.");
+            nopeus = u_nopeus;
+            matkustajaLkm = u_matkustajaLkm;
+            olioLaskuri++;
         }
     }
 
@@ -83,13 +90,13 @@ namespace Tehtävä_6
         public void Tankkaa(int value) //Tankkaa metodi kasvattaa olion polttoaine-kentän arvoa metodin parametrin verran.
         {
             Console.WriteLine("     System: Tankkaa metodi käytetty");
-            polttoaine = + value;
+            polttoaine = +value;
         }
         public void PainoLaskuri() //Painolaskuri laskee lentokoneen painon ja vertaa sitä maksimipainoon, olettaen että matkustajan keskipaino on 100kg. Tulos tulostetaan konsoliin.
         {
             Console.WriteLine("     System: PainoLaskuri metodi käytetty");
             int paino = matkustajaLkm * 100;
-            Console.WriteLine("Lentokoneen Max Paino on {0}kg, Lentokoneen tämänhetkinen paino on {1}kg, tilaa jäljellä {2}kg", maxPaino, paino, maxPaino-paino);
+            Console.WriteLine("Lentokoneen Max Paino on {0}kg, Lentokoneen tämänhetkinen paino on {1}kg, tilaa jäljellä {2}kg", maxPaino, paino, maxPaino - paino);
         }
         public void Tulostatiedot() //Tulostatiedot metodi tulostaa olion kenttien tiedot.
         {
@@ -97,7 +104,7 @@ namespace Tehtävä_6
             Console.WriteLine("Nopeus: " + nopeus);
             Console.WriteLine("Matkustajien lkm: " + matkustajaLkm);
             Console.WriteLine("Polttoainetta (Litraa): " + polttoaine);
-            Console.WriteLine("Maxpaino: "+ maxPaino);
+            Console.WriteLine("Maxpaino: " + maxPaino);
         }
 
 
@@ -105,11 +112,8 @@ namespace Tehtävä_6
         public Lentokone() //Vakiokonstruktori
         {
             Console.WriteLine("     System: Lentokone olio luotu vakiokonstruktorilla.");
-            nopeus =0;
-            matkustajaLkm =0;
-            polttoaine =0;
-            maxPaino =0;
-            olioLaskuri++;
+            polttoaine = 0;
+            maxPaino = 0;
         }
         public Lentokone(int u_nopeus, int u_matkustajaLkm, double u_polttoaine, double u_maxPaino) //Ylikuormituskonstruktori
         {
@@ -118,7 +122,6 @@ namespace Tehtävä_6
             matkustajaLkm = u_matkustajaLkm;
             polttoaine = u_polttoaine;
             maxPaino = u_maxPaino;
-            olioLaskuri++;
         }
     }
 
@@ -158,32 +161,29 @@ namespace Tehtävä_6
         public void NimeäLaiva(string value) //NimeäLaiva metodi muuttaa olion lainanNimi kentän arvon metodin parametrin arvoksi.
         {
             Console.WriteLine("     System: NimeäLaiva metodi käytetty");
-            laivanNimi=value;
+            laivanNimi = value;
         }
         public void Hytit() //Hytit metodi laskee vapaiden hyttien määrän, tulostaa sen konsoliin ja tallehntaa sen olioon.
         {
             Console.WriteLine("     System: Hytit metodi käytetty");
             Console.WriteLine("Hyttejä yhteensä {0}, matkustajia {1}, vapaita hyttejä jäljellä {2}", vapaatHytit, matkustajaLkm, vapaatHytit - matkustajaLkm);
-            vapaatHytit = vapaatHytit- matkustajaLkm;
+            vapaatHytit = vapaatHytit - matkustajaLkm;
         }
         public void Tulostatiedot() //Tulostatiedot metodi tulostaa olion kenttien arvon.
         {
             Console.WriteLine("     System: Laivan Tulostatiedot metodi käytetty.");
-            Console.WriteLine("Nopeus: "+ nopeus);
-            Console.WriteLine("Matkustajien lkm: "+ matkustajaLkm);
-            Console.WriteLine("Laivan nimi: "+ laivanNimi);
-            Console.WriteLine("Vapaita hyttejä: "+ vapaatHytit);
+            Console.WriteLine("Nopeus: " + nopeus);
+            Console.WriteLine("Matkustajien lkm: " + matkustajaLkm);
+            Console.WriteLine("Laivan nimi: " + laivanNimi);
+            Console.WriteLine("Vapaita hyttejä: " + vapaatHytit);
         }
 
         // Konstruktorit
         public Laiva() //Vakiokonstruktori
         {
             Console.WriteLine("     System: Laiva olio luotu vakiokonstruktorilla.");
-            nopeus =0;
-            matkustajaLkm =0;
-            laivanNimi ="";
-            vapaatHytit =0;
-            olioLaskuri++;
+            laivanNimi = "";
+            vapaatHytit = 0;
         }
         public Laiva(int u_nopeus, int u_matkustajaLkm, string u_laivanNimi, int u_vapaatHytit) //Ylikuormituskonstruktori
         {
@@ -192,7 +192,6 @@ namespace Tehtävä_6
             matkustajaLkm = u_matkustajaLkm;
             laivanNimi = u_laivanNimi;
             vapaatHytit = u_vapaatHytit;
-            olioLaskuri++;
         }
     }
 
@@ -227,7 +226,7 @@ namespace Tehtävä_6
 
             Console.WriteLine("Nyt luodaan uusi Lentokone olio nimelta Boeing747. Käytetään ylikuormituskonstruktoria.");
 
-            Lentokone Boeing747 =new Lentokone(900, 40, 0, 5000);
+            Lentokone Boeing747 = new Lentokone(900, 40, 0, 5000);
             Console.WriteLine();
 
             Console.WriteLine("Voimme laskea Lentokoneen matkustajien painorajoitteen.");
@@ -266,7 +265,8 @@ namespace Tehtävä_6
             Console.WriteLine("Tulostetaan nyt olion Titanic tiedot Tulostatiedot-metodilla.");
             Titanic.Tulostatiedot();
 
-            Kulkuneuvo.TulostaLaskuri();
+            Console.WriteLine();
+            Console.WriteLine("Olioiden lukumäärä yhteensä: {0}", Kulkuneuvo.olioLaskuri);
         }
     }
 }
